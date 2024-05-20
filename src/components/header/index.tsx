@@ -19,3 +19,5 @@ export const Header = () => {
     </Cabecalho>
   )
 }
+
+export default Header
