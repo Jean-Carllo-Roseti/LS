@@ -1,3 +1,4 @@
+import Footer from './components/footer'
 import { Header } from './components/header'
 import Principal from './components/main'
 import { GlobalCss } from './styles'
@@ -8,6 +9,7 @@ function App() {
       <GlobalCss />
       <Header />
       <Principal />
+      <Footer />
     </>
   )
 }

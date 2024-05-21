@@ -10,6 +10,7 @@ export const TotalPrincipal = styled.div`
   display: flex;
   padding: 0 162px;
   height: 492px;
+  margin-bottom: 64px;
 `
 
 export const Conteudo = styled.div`
