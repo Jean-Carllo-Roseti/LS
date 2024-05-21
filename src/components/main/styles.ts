@@ -6,19 +6,31 @@ width; 400px;
 height: 492px;
 border-radius: 8px;
 margin-left: 226px;
+
+@media (max-width: 768px) {
+  width: 300px;
+  height: 300px;
+  margin: 24px 0;
+}
+
+
 `
 export const TotalPrincipal = styled.div`
   display: flex;
-
-  height: 492px;
   margin-bottom: 64px;
+
+  @media (max-width: 768px) {
+    display: block;
+  }
 `
 
 export const Conteudo = styled.div`
-  height: 330px;
+
   margin: 80px 0;
 
-  .convite {
+  @media (max-width: 768px) {
+    display: block;
+    margin: 0;
   }
 
   h1 {
@@ -31,7 +43,7 @@ export const Conteudo = styled.div`
   span {
     width: 160px;
     height: 2px;
-    border-bottom: 2px solid green; /* Adiciona uma borda na parte inferior */
+    border-bottom: 2px solid green;
     display: inline-block;
   }
 
@@ -44,7 +56,18 @@ export const Conteudo = styled.div`
   }
 
   form {
+
+    @media (max-width: 768px) {
+
+    }
+
+
     margin-top: 32px;
+
+    @media (max-width: 768px) {
+
+      margin: 40px 0;
+    }
 
     button {
       cursor: pointer;
@@ -65,11 +88,16 @@ export const Conteudo = styled.div`
         box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3); /* Sombra ao passar o mouse */
       }
 
-
       &:nth-child(2) {
         background-color: #fff;
         color: ${cores.verde};
         margin-left: 24px;
+
+        @media (max-width: 768px) {
+          margin-top: 24px;
+          margin-left: 0;
+        }
+
       }
     }
   }

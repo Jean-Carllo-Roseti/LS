@@ -15,7 +15,7 @@ export const Principal = () => {
             profissionais da Lacrei Saúde.
           </p>
         </div>
-        <div>
+        <div className="botoes">
           <form action="">
             <button>Buscar Atendimento</button>
             <button>Oferecer Atendimento</button>

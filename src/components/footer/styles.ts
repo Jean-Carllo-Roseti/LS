@@ -14,6 +14,10 @@ export const Infos = styled.div`
   display: flex;
   justify-content: space-between;
   margin: 48px 0;
+
+  @media (max-width: 768px) {
+    display: block;
+  }
 `
 export const Redes = styled.ul`
   display: flex;
@@ -22,6 +26,10 @@ export const Redes = styled.ul`
 
   li {
     cursor: pointer;
+  }
+
+  @media (max-width: 768px) {
+    display: inline-flex;
   }
 `
 
@@ -35,6 +43,11 @@ export const LogoMarca = styled.img`
 export const Links = styled.ul`
   display: flex;
   gap: 110.5px;
+
+  @media (max-width: 768px) {
+    display: block;
+    margin-top: 24px;
+  }
 `
 
 export const Itens = styled.ul`
@@ -80,4 +93,8 @@ export const Botao = styled.button`
 
   right: 0;
   top: 0;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
 `

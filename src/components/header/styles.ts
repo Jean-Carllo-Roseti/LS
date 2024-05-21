@@ -12,6 +12,10 @@ export const HeaderNav = styled.nav`
   padding: 24px ;
   align-items: center;
 
+  @media (max-width: 768px) {
+    display: none;
+  }
+
   ul {
     display: flex;
 
@@ -36,5 +40,25 @@ export const HeaderNav = styled.nav`
       &:nth-child(2) {
         margin: 0 16px;
       }
+  }
+`
+export const HambuHeader = styled.div`
+  display: none;
+
+  @media (max-width: 768px) {
+    display: block;
+  }
+`
+
+export const Hamburguer = styled.div`
+  span {
+    cursor: pointer;
+    height: 2px;
+    display: block;
+    color: red;
+  }
+
+  @media (max-width: 768px) {
+    display: block;
   }
 `

@@ -36,6 +36,10 @@ export const GlobalCss = createGlobalStyle`
 
 body {
   padding: 0 162px;
+
+  @media (max-width: 768px) {
+    text-align: center;
+  }
 }
 
 `
