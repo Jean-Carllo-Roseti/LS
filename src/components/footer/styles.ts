@@ -1,8 +1,7 @@
 import styled from 'styled-components'
+import { cores } from '../../styles'
 
 export const TotalInfos = styled.div`
-  padding: 0 162px;
-
   span {
     width: 100%;
     height: 2px;
@@ -42,7 +41,7 @@ export const Itens = styled.ul`
   li {
     font-size: 16px;
     margin-bottom: 16px;
-    color: #2d2d2d;
+    color: ${cores.textColor};
 
     &: first-child {
       font-size: 18px;
@@ -60,7 +59,7 @@ export const Detalhes = styled.div`
     font-weight: 400;
     font-size: 14px;
     line-height: 21px;
-    color: #515151;
+    color: #${cores.textCinza};
   }
 
   & > p:nth-child(1) {

@@ -79,7 +79,10 @@ export const Footer = () => {
           Copyright © 2021 Lacrei. Todos os direitos reservados. CNPJ:
           51.265.351/0001-65
         </p>
-        <Botao type="button">
+        <Botao
+          type="button"
+          onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+        >
           <img
             src={ButtonAba}
             alt="imagem de um botao com um icone de seta para cima"

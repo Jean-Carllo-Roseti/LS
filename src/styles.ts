@@ -1,6 +1,28 @@
 import { createGlobalStyle } from 'styled-components'
 
+export const cores = {
+  verde: '#018762',
+  textColor: '#2D2D2D',
+  textHeading: '#131313',
+  textCinza: '#515151',
+  bgHeader: '#F5FFFB'
+}
+
 export const GlobalCss = createGlobalStyle`
+@font-face {
+  font-family: 'Nunito';
+  src: url('/assets/fonts/Nunito-Italic-VariableFont_wght.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 100 900;
+}
+
+@font-face {
+  font-family: 'Nunito';
+  src: url('/assets/fonts/Nunito-VariableFont_wght.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 100 900;
+}
+
 
 *{
   box-sizing: border-box;
@@ -9,9 +31,11 @@ export const GlobalCss = createGlobalStyle`
   list-style: none;
   text-decoration: none;
   font-family: 'Nunito', sans-serif;
+
 }
 
-.container {
+body {
   padding: 0 162px;
 }
+
 `
