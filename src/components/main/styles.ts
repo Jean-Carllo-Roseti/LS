@@ -25,8 +25,13 @@ export const Conteudo = styled.div`
     font-weight: 700;
     line-height: 57.6px;
     margin-bottom: 0;
+  }
+
+  span {
+    width: 160px;
+    height: 2px;
     border-bottom: 2px solid green; /* Adiciona uma borda na parte inferior */
-    width: fit-content; /* Define a largura do elemento conforme o seu conteúdo */
+    display: inline-block;
   }
 
 
@@ -59,13 +64,7 @@ export const Conteudo = styled.div`
     }
   }
 
-  .linha {
-    width: 2px;
-    height: 160px;
-    border-radius: 4px 0 0 0;
-    background-color: green;
-    transform: rotate(90deg)
-  }
+
 
 
 `

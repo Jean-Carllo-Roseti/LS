@@ -2,11 +2,19 @@ import styled from 'styled-components'
 
 export const TotalInfos = styled.div`
   padding: 0 162px;
+
+  span {
+    width: 100%;
+    height: 2px;
+    border-bottom: 1px solid green;
+    display: inline-block;
+  }
 `
 
 export const Infos = styled.div`
   display: flex;
   justify-content: space-between;
+  margin: 48px 0;
 `
 export const Redes = styled.ul`
   display: flex;
@@ -49,7 +57,14 @@ export const Detalhes = styled.div`
   margin-bottom: 24px;
 
   p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
     color: #515151;
+  }
+
+  & > p:nth-child(1) {
+    margin-bottom: 8px;
   }
 
   & > p:nth-child(3) {

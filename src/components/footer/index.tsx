@@ -20,6 +20,7 @@ import {
 export const Footer = () => {
   return (
     <TotalInfos>
+      <span></span>
       <Infos>
         <LogoLinks>
           <div>
@@ -64,6 +65,7 @@ export const Footer = () => {
           </Itens>
         </Links>
       </Infos>
+      <span></span>
       <Detalhes>
         <p>
           A Lacrei não oferece tratamento médico emergencial. Em caso de

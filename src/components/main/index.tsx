@@ -9,7 +9,7 @@ export const Principal = () => {
           <h1>
             Junte-se à<br /> nossa comunidade
           </h1>
-          <span className="linha"></span>
+          <span></span>
           <p>
             Encontre atendimento clínico de qualidade ou entre para o time de
             profissionais da Lacrei Saúde.
