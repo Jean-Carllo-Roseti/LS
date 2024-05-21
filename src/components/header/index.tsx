@@ -1,4 +1,11 @@
-import { Cabecalho, HambuHeader, Hamburguer, HeaderNav } from './styles'
+import {
+  Cabecalho,
+  HamList,
+  HambuHeader,
+  Hamburguer,
+  HeaderNav,
+  NavList
+} from './styles'
 import Logo from '../../assets/images/Logo.png'
 import LogoCompleto from '../../assets/images/LGcompleto.png'
 import { useState } from 'react'
@@ -8,28 +15,28 @@ export const Header = () => {
 
   return (
     <Cabecalho>
-      <HambuHeader>
-        <Hamburguer onClick={() => setIsOpen(!isOpen)}>
-          <span />
-          <span />
-          <span />
-        </Hamburguer>
-        <ul className={isOpen ? 'is-open' : ''}>
-          <li>Quem somos</li>
-          <li>Ajuda</li>
-          <li>Entrar</li>
-        </ul>
-      </HambuHeader>
       <HeaderNav>
         <div>
           <img src={Logo} alt="logomarca da empresa" />
           <img src={LogoCompleto} alt="Nome da empresa personalizado" />
         </div>
-        <ul>
+        <HambuHeader>
+          <Hamburguer onClick={() => setIsOpen(!isOpen)}>
+            <span />
+            <span />
+            <span />
+          </Hamburguer>
+          <HamList className={isOpen ? 'is-open' : ''}>
+            <li>Quem somos</li>
+            <li>Ajuda</li>
+            <li>Entrar</li>
+          </HamList>
+        </HambuHeader>
+        <NavList>
           <li>Quem somos</li>
           <li>Ajuda</li>
           <li>Entrar</li>
-        </ul>
+        </NavList>
       </HeaderNav>
     </Cabecalho>
   )
