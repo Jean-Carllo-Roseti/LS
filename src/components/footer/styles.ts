@@ -15,7 +15,7 @@ export const Infos = styled.div`
   justify-content: space-between;
   margin: 48px 0;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
     display: block;
   }
 `
@@ -28,7 +28,7 @@ export const Redes = styled.ul`
     cursor: pointer;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
     display: inline-flex;
   }
 `
@@ -44,8 +44,14 @@ export const Links = styled.ul`
   display: flex;
   gap: 110.5px;
 
+  @media (max-width: 1024px) {
+    margin-top: 24px;
+    justify-content: space-around;
+  }
+
   @media (max-width: 768px) {
     margin-top: 24px;
+    display: block;
   }
 `
 
@@ -93,7 +99,7 @@ export const Botao = styled.button`
   right: 0;
   top: 0;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
     display: none;
   }
 `

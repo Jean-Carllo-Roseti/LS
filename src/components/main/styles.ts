@@ -7,6 +7,10 @@ height: 492px;
 border-radius: 8px;
 margin-left: 226px;
 
+@media (max-width: 1024px) {
+  margin: 0;
+}
+
 @media (max-width: 768px) {
   width: 300px;
   height: 300px;
@@ -19,7 +23,7 @@ export const TotalPrincipal = styled.div`
   display: flex;
   margin-bottom: 64px;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
     display: block;
   }
 `
