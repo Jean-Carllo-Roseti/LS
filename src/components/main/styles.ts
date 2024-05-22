@@ -50,7 +50,7 @@ export const Conteudo = styled.div`
     border-bottom: 2px solid green;
     display: inline-block;
 
-    @media(max-width: 768px) {
+    @media(max-width: 1024px) {
       margin-bottom: 24px;
       margin-top: 14px;
       width: 100%;

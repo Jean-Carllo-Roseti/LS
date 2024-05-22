@@ -59,7 +59,7 @@ export const Hamburguer = styled.div`
     height: 2px;
     display: block;
     width: 100%;
-    background-color: red;
+    background-color: ${cores.verde};
     margin-bottom: 4px;
 
     @media (min-width: 768px) {
@@ -73,6 +73,8 @@ export const Hamburguer = styled.div`
 `
 export const HamList = styled.ul`
   display: none;
+  color: ${cores.verde};
+  font-weight: 600;
 
   &.is-open {
     display: block;
