@@ -44,3 +44,39 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+
+Testes do Componente Header
+
+Este projeto contém testes automatizados para o componente Header.
+Tecnologias Utilizadas
+
+    React
+    Jest
+    Testing Library
+
+Instalação
+
+    Clone este repositório.
+    Execute npm install para instalar as dependências.
+    Execute npm test para executar os testes.
+
+Testes
+
+Os testes do componente Header verificam se o logotipo está presente e se o menu hamburguer funciona corretamente.
+Verificação de logo e "state" inicial do hamburguer
+
+    Testa se o logotipo da empresa está presente.
+    Testa se o menu hamburguer está inicialmente fechado.
+
+Funcionamento do hamburguer
+
+    Testa se o menu hamburguer é aberto quando o ícone do hamburguer é clicado.
+
+Execução dos Testes
+
+Para executar os testes, use o seguinte comando:
+
+bash
+
+npm test

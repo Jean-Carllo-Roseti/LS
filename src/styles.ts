@@ -25,7 +25,6 @@ export const GlobalCss = createGlobalStyle`
   font-weight:  900;
 }
 
-
 *{
   box-sizing: border-box;
   margin: 0;
