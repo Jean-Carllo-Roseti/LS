@@ -39,6 +39,7 @@ body {
 
   @media (max-width: 768px) {
     text-align: center;
+    padding: 0 32px;
   }
 }
 

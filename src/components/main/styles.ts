@@ -45,6 +45,12 @@ export const Conteudo = styled.div`
     height: 2px;
     border-bottom: 2px solid green;
     display: inline-block;
+
+    @media(max-width: 768px) {
+      margin-bottom: 24px;
+      margin-top: 14px;
+      width: 100%;
+    }
   }
 
 
@@ -56,17 +62,15 @@ export const Conteudo = styled.div`
   }
 
   form {
+    margin-top: 32px;
 
     @media (max-width: 768px) {
 
     }
 
-
-    margin-top: 32px;
-
     @media (max-width: 768px) {
-
       margin: 40px 0;
+      display: grid;
     }
 
     button {

@@ -45,7 +45,6 @@ export const Links = styled.ul`
   gap: 110.5px;
 
   @media (max-width: 768px) {
-    display: block;
     margin-top: 24px;
   }
 `
