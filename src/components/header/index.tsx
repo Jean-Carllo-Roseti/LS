@@ -21,13 +21,19 @@ export const Header = () => {
           <img src={LogoCompleto} alt="Nome da empresa personalizado" />
         </div>
         <HambuHeader>
-          <HamList className={isOpen ? 'is-open' : ''}>
+          <HamList
+            data-testid="hamburguer-menu"
+            className={isOpen ? 'is-open' : 'is-close'}
+          >
             <li>Quem somos</li>
             <li>Ajuda</li>
             <li>Entrar</li>
           </HamList>
         </HambuHeader>
-        <Hamburguer onClick={() => setIsOpen(!isOpen)}>
+        <Hamburguer
+          data-testid="hamburger-icon"
+          onClick={() => setIsOpen(!isOpen)}
+        >
           <span />
           <span />
           <span />
