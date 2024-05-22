@@ -9,18 +9,20 @@ export const cores = {
 }
 
 export const GlobalCss = createGlobalStyle`
+
+
 @font-face {
   font-family: 'Nunito';
   src: url('/assets/fonts/Nunito-Italic-VariableFont_wght.ttf') format('truetype');
   font-style: italic;
-  font-weight: 100 900;
+  font-weight:  900;
 }
 
 @font-face {
   font-family: 'Nunito';
   src: url('/assets/fonts/Nunito-VariableFont_wght.ttf') format('truetype');
   font-style: italic;
-  font-weight: 100 900;
+  font-weight:  900;
 }
 
 

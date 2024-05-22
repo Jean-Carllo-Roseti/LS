@@ -5,7 +5,7 @@ export const Principal = () => {
   return (
     <TotalPrincipal>
       <Conteudo>
-        <div className="convite">
+        <div className="convite ">
           <h1>
             Junte-se à<br /> nossa comunidade
           </h1>
